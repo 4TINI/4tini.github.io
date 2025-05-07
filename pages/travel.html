@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Set character encoding to UTF-8 for better text compatibility -->
+    <meta charset="UTF-8" />
+
+    <!-- Ensure proper rendering and touch zooming on mobile devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Page title displayed on the browser tab -->
+    <title>Luca Fortini</title>
+
+    <!-- Favicon (small icon displayed in the browser tab) -->
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon" />
+
+    <!-- Main stylesheet for the website's styles -->
+    <link rel="stylesheet" href="../css/main.css" />
+
+    <!-- Additional CSS file, likely for responsive design -->
+    <link rel="stylesheet" href="../css/media.css" />
+
+    <!-- AOS (Animate On Scroll) library for scroll animations -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+      integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+      crossorigin="anonymous"  
+      referrerpolicy="no-referrer"  
+    />
+  </head>
+
+
+
+  <body>
+    <header id="header" class="header">
+      <!-- Container for layout structure -->
+      <div class="container container-lg">
+        
+        <!-- Navigation bar wrapper -->
+        <div class="header-nav">
+          
+          <!-- Logo with AOS (Animate On Scroll) effect -->
+          <a
+            href="../index.html#home"
+            class="logo"
+            data-aos="fade-down"       
+            data-aos-duration="1000"  
+          >
+            Luca Fortini
+          </a>
+    
+          <!-- Main navigation menu -->
+          <nav id="nav" class="nav">
+            
+            <!-- Navigation list with AOS animation -->
+            <ul class="nav-list" data-aos="fade-down" data-aos-duration="1000">
+              <li class="nav-item">
+                <a href="../index.html#home" class="nav-link active">Home</a> 
+              </li>
+              <li class="nav-item">
+                <a href="../index.html#about" class="nav-link">About</a>
+              </li>
+              <li class="nav-item">
+                <a href="../index.html#projects" class="nav-link">Works</a>
+              </li>
+              <li class="nav-item">
+                <a href="publications.html">Publications</a>
+              </li>
+              <li class="nav-item">
+                <a href="travel.html" class="nav-link">Travel</a>
+              </li>
+              <li class="nav-item">
+                <a href="../index.html#contact" class="nav-link">Contact</a>
+              </li>
+            </ul>
+    
+            <!-- Mobile navigation button (menu toggle) -->
+            <button id="nav-btn" class="nav-btn">
+              <img
+                id="nav-btn-img"
+                src="../img/icons/open.svg" 
+                alt="Navigation button"
+              />
+            </button>
+    
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-title">
+                <h2 class="title">Travel</h2>
+            </div>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/d/u/0/embed?mid=18dflD1t7HGy3CdNBiObnaH_1_zxTGl8&ehbc=2E312F" width="1280" height="720"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+          <div class="footer-row">
+            <div class="social-links-row footer-social">
+              <a href="#!">
+                <img
+                  src="../img/social_icons/github.svg"
+                  alt="https://github.com/4TINI"
+                />
+              </a>
+              <a href="#!">
+                <img
+                  src="../img/social_icons/linkedin.svg"
+                  alt="www.linkedin.com/in/luca-fortini"
+                />
+              </a>
+              <a href="#!">
+                <img
+                  src="../img/social_icons/googlescholar.svg"
+                  alt="https://scholar.google.com/citations?user=ILmUVh4AAAAJ&hl=en"
+                />
+              </a>
+              <a href="#!">
+                <img
+                  src="../img/social_icons/instagram.svg"
+                  alt="https://www.instagram.com/luca4tini/"
+              /></a>
+              <a href="#!">
+                <img
+                  src="../img/social_icons/medium.svg"
+                  alt="https://medium.com/@luca4tini"
+              /></a>
+            </div>
+  
+            <div class="footer-copyright">
+              <p>&copy; Copyright Luca Fortini 2025</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+  
+      <div id="goToTop" class="goToTop">
+        <a href="#home">
+          <img src="../img/icons/arrow_up.svg" alt="Back to top"
+        /></a>
+      </div>
+  
+      <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+        integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+      ></script>
+      <script type="module" src="../js/main.js"></script>
+    </body>
+  </html>
